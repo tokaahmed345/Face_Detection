@@ -1,16 +1,28 @@
 # facedetection
 
-A new Flutter project.
+This Flutter app uses Google ML Kit to perform real-time face detection. It captures images or video frames from the device camera and processes them to detect faces, facial landmarks, and contours.
 
-## Getting Started
+The app highlights detected faces with bounding boxes and provides information such as smiling probability and eye openness, enabling applications like emotion detection, face-based authentication, and augmented reality.
 
-This project is a starting point for a Flutter application.
+Features
+Real-time face detection using Google ML Kit
 
-A few resources to get you started if this is your first Flutter project:
+Detects multiple faces in a single frame
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Identifies facial landmarks (eyes, nose, mouth, etc.)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Provides facial contour information
+
+Supports live camera feed or static images
+
+Simple and intuitive user interface
+
+Technologies Used
+Flutter & Dart
+
+Google ML Kit Face Detection API
+
+Camera plugin for live feed integration
+
+State management for smooth UI updates
+
