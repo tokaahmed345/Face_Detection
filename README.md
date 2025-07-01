@@ -1,4 +1,4 @@
-# facedetection
+ # facedetection
 
  Flutter app uses Google ML Kit to perform real-time face detection. It captures images or video frames from the device camera and processes them to detect faces, facial landmarks, and contours.
 
